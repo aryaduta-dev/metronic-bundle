@@ -1,0 +1,25 @@
+{
+    "name": "aryaduta/metronic-bundle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agung Aryaduta",
+            "email": "cibonfire@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-kernel": "^5.2",
+        "symfony/dependency-injection": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aryaduta\\MetronicBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aryaduta\\MetronicBundle\\Tests\\": "tests/"
+        }
+    }
+}
